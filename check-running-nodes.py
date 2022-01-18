@@ -33,7 +33,6 @@ for i in range(len(xe_hosts)):
                           )
 
 #Send an email with the status of all edge hosts contained in xe_hosts
-sender_email = "email@office365.com"
 receiver_email = "email@office365.com"
 message = """\
 Subject: Edge Network : Status
