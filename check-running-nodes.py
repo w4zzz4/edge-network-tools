@@ -43,6 +43,9 @@ Subject: Edge Network : Status
 for i in range(len(xe_hosts)):
     message = message + "| " + str(xe_hosts[i][2]) +  " | " + str(xe_hosts[i][3]) + " | " + xe_hosts[i][1] + "\r\n"
 
+# Add number of running nodes
+message = message + "\r\n" + "Currently Edge Network has " + str(j) + " nodes running"
+
 smtp_server = "smtp.office365.com"
 port = 587  # For starttls
 sender_email = "email@office365.com"
